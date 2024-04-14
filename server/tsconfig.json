@@ -12,8 +12,6 @@
     "resolveJsonModule": true
   },
   "include": [
-    "src/.ts",
-    "src/routes/**/.ts",
-    "src/model/*.ts"
+    "src/**/*.ts",
   ]
 }

@@ -1,0 +1,246 @@
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"GetOperations","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"GetAccounts","service":"user-service"}
+{"level":"info","message":"GetAccounts","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"GetAccounts","service":"user-service"}
+{"level":"info","message":"GetAccounts","service":"user-service"}
+{"level":"info","message":"test","service":"user-service"}
+{"level":"info","message":"test","service":"user-service"}
+{"level":"info","message":"GetOperations","service":"user-service"}
+{"level":"info","message":"GetCategories","service":"user-service"}
+{"level":"info","message":"test","service":"user-service"}
+{"level":"info","message":"Your title was successfully changed !","service":"user-service"}
+{"level":"info","message":"SpendMoney","service":"user-service"}
+{"level":"info","message":"CreateCategory","service":"user-service"}
+{"level":"info","message":"CreateOperation","service":"user-service"}
+{"level":"info","message":"GetOperation","service":"user-service"}
+{"level":"info","message":"GetCategory","service":"user-service"}
+{"level":"info","message":"GetAccounts","service":"user-service"}
+{"level":"info","message":"UpdateOperation","service":"user-service"}
+{"level":"info","message":"UpdateCategory","service":"user-service"}
+{"level":"info","message":"DeleteOperation","service":"user-service"}
+{"level":"info","message":"DeleteCategory","service":"user-service"}
+{"level":"error","message":"Title missing !","service":"user-service"}
+{"level":"error","message":"Title missing !","service":"user-service"}
+{"level":"error","message":"Title too long !","service":"user-service"}
+{"level":"error","message":"Title too long !","service":"user-service"}
+{"level":"info","message":"Password changed !","service":"user-service"}
+{"level":"info","message":"Username changed !","service":"user-service"}
+{"level":"info","message":"Account created !","service":"user-service"}
+{"level":"info","message":"GetAccount","service":"user-service"}
+{"level":"info","message":"UpdateAccount","service":"user-service"}
+{"level":"info","message":"DeleteAccount","service":"user-service"}
+{"level":"error","message":"Password missing !","service":"user-service"}
+{"level":"error","message":"Password error !","service":"user-service"}
+{"level":"error","message":"Password too short !","service":"user-service"}
+{"level":"error","message":"Password error !","service":"user-service"}
+{"level":"error","message":"Password too long !","service":"user-service"}
+{"level":"error","message":"Password error !","service":"user-service"}
+{"level":"info","message":"Password changed !","service":"user-service"}
+{"level":"error","message":"Username missing !","service":"user-service"}
+{"level":"error","message":"Username error !","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"GetAccounts","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"error","message":"Password too short !","service":"user-service"}
+{"level":"error","message":"Password error !","service":"user-service"}
+{"level":"error","message":"Password too short !","service":"user-service"}
+{"level":"error","message":"Password error !","service":"user-service"}
+{"level":"error","message":"Password too short !","service":"user-service"}
+{"level":"error","message":"Password error !","service":"user-service"}
+{"level":"error","message":"Password too short !","service":"user-service"}
+{"level":"error","message":"Password error !","service":"user-service"}
+{"level":"info","message":"Password changed !","service":"user-service"}
+{"level":"info","message":"Username changed !","service":"user-service"}
+{"level":"error","message":"Username already taken !","service":"user-service"}
+{"level":"info","message":"Password changed !","service":"user-service"}
+{"level":"info","message":"Username changed !","service":"user-service"}
+{"level":"error","message":"Username already taken !","service":"user-service"}
+{"level":"info","message":"Password changed !","service":"user-service"}
+{"level":"info","message":"Username changed !","service":"user-service"}
+{"level":"error","message":"Username already taken !","service":"user-service"}
+{"level":"info","message":"You successfully logged in !","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"GetAccount","service":"user-service"}
+{"level":"info","message":"GetAccount","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"GetAccount","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"GetAccount","service":"user-service"}
+{"level":"info","message":"UpdateBalance","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"GetAccount","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"GetAccount","service":"user-service"}
+{"level":"info","message":"UpdateBalance","service":"user-service"}
+{"level":"info","message":"GetAccount","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"GetAccount","service":"user-service"}
+{"level":"info","message":"UpdateBalance","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"GetAccount","service":"user-service"}
+{"level":"info","message":"UpdateBalance","service":"user-service"}
+{"level":"info","message":"GetAccount","service":"user-service"}
+{"level":"info","message":"UpdateBalance","service":"user-service"}
+{"level":"info","message":"GetAccount","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"GetAccount","service":"user-service"}
+{"level":"info","message":"UpdateBalance","service":"user-service"}
+{"level":"info","message":"GetAccount","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"GetAccount","service":"user-service"}
+{"level":"info","message":"UpdateBalance","service":"user-service"}
+{"level":"info","message":"GetAccount","service":"user-service"}
+{"level":"info","message":"UpdateBalance","service":"user-service"}
+{"level":"error","message":"Username or password incorrect !","service":"user-service"}
+{"level":"info","message":"You successfully logged in !","service":"user-service"}
+{"level":"info","message":"GetAccount","service":"user-service"}
+{"level":"info","message":"UpdateBalance","service":"user-service"}
+{"level":"info","message":"UpdateBalance","service":"user-service"}
+{"level":"info","message":"GetAccount","service":"user-service"}
+{"level":"info","message":"GetAccount","service":"user-service"}
+{"level":"info","message":"GetAccount","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"Your title was successfully changed !","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"Your title was successfully changed !","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"Password changed !","service":"user-service"}
+{"level":"info","message":"Username changed !","service":"user-service"}
+{"level":"info","message":"Account created !","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetAccount","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"DeleteCategory","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"Your title was successfully changed !","service":"user-service"}
+{"level":"info","message":"CreateCategory","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"DeleteCategory","service":"user-service"}
+{"level":"info","message":"DeleteCategory","service":"user-service"}
+{"level":"info","message":"DeleteCategory","service":"user-service"}
+{"level":"info","message":"DeleteCategory","service":"user-service"}
+{"level":"info","message":"DeleteCategory","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"DeleteCategory","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"Your title was successfully changed !","service":"user-service"}
+{"level":"info","message":"CreateCategory","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"prod","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"Your title was successfully changed !","service":"user-service"}
+{"level":"info","message":"CreateCategory","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"error","message":"Token is not valid !","service":"user-service"}
+{"level":"error","message":"Token is not valid !","service":"user-service"}
+{"level":"error","message":"Token is not valid !","service":"user-service"}
+{"level":"error","message":"Token is not valid !","service":"user-service"}
+{"level":"error","message":"Token is not valid !","service":"user-service"}
+{"level":"error","message":"Token is not valid !","service":"user-service"}
+{"level":"error","message":"Token is not valid !","service":"user-service"}
+{"level":"error","message":"Token is not valid !","service":"user-service"}
+{"level":"error","message":"Token is not valid !","service":"user-service"}
+{"level":"error","message":"Token is not valid !","service":"user-service"}
+{"level":"error","message":"Token is not valid !","service":"user-service"}
+{"level":"info","message":"You successfully logged in !","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetOperationsOfUser","service":"user-service"}
+{"level":"info","message":"GetAccount","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"DeleteCategory","service":"user-service"}
+{"level":"info","message":"Your title was successfully changed !","service":"user-service"}
+{"level":"info","message":"CreateCategory","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"Your title was successfully changed !","service":"user-service"}
+{"level":"info","message":"CreateCategory","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"SpendMoney","service":"user-service"}
+{"level":"info","message":"CreateOperation","service":"user-service"}
+{"level":"info","message":"GetAccount","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetOperationsOfUser","service":"user-service"}
+{"level":"info","message":"GetAccount","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"SpendMoney","service":"user-service"}
+{"level":"info","message":"CreateOperation","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetOperationsOfUser","service":"user-service"}
+{"level":"info","message":"GetAccount","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"SpendMoney","service":"user-service"}
+{"level":"info","message":"CreateOperation","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetOperationsOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetOperationsOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetOperationsOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}
+{"level":"info","message":"GetOperationsOfUser","service":"user-service"}
+{"level":"info","message":"GetCategoriesOfUser","service":"user-service"}

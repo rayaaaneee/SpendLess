@@ -1,0 +1,94 @@
+#main {
+
+  flex-direction: column;
+  row-gap: 20px;
+
+  & > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+
+    &:last-child {
+      margin-bottom: 7rem;
+    }
+  }
+
+  .main-title {
+    font-size: 4.5rem;
+  }
+
+  .balance-container {
+    margin-top: 7rem;
+    translate: -4.5rem;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    column-gap: 10px;
+    transition: color 0.5s ease-in-out;
+
+    &.ultra-red {
+      color: #8e0c0c;
+    }
+
+    &.red {
+      color: #d55b5b;
+    }
+
+    &.grey {
+      color: grey;
+    }
+
+    &.yellow {
+      color: #e9e98f;
+    }
+
+    &.green {
+      color: green;
+    }
+
+    &.ultra-green {
+      color: #90ec90;
+    }
+
+
+
+    .balance {
+      font-weight: 600;
+
+      &.euros {
+        font-size: 6.5rem;
+      }
+
+      &.cents {
+        font-size: 3rem;
+        margin-bottom: 15px;
+      }
+
+      &.currency {
+        font-size: 3.5rem;
+        margin-bottom: 14px;
+      }
+    }
+  }
+
+  button.add {
+    width: 170px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-family: 'Work Sans';
+    font-weight: 300;
+    color: #fff;
+    background: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: #000;
+    }
+  }
+}

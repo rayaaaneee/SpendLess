@@ -1,0 +1,53 @@
+<div id="whole">
+        <div id="spendlessTitle">
+            <h1>SPENDLESS</h1>
+        </div>
+
+
+    <div id="dateDiv">
+        <div id="time">
+            <h4 id="dayClick" class="selectBG" (click)="selecTime($event)">Day</h4>
+            <h4 (click)="selecTime($event)">Week</h4>
+            <h4 (click)="selecTime($event)">Month</h4>
+            <h4 (click)="selecTime($event)">Year</h4>
+        </div>
+        <div id="selection">
+            <h4 (click)="updateDateFromArrows('left')" style="user-select: none;"><</h4>
+
+            <div style="display: flex;flex-direction: column;">
+                <p-calendar (onSelect)="changeDate($event)" [ngModel]="usedDate" [inline]="true" [view]="calendarView"></p-calendar>
+                <h4 id="dateDisplay" (click)="openCalendar()" >Today</h4>
+            </div>
+
+            <h4 (click)="updateDateFromArrows('right')" style="user-select: none;">></h4>
+        </div>
+    </div>
+
+
+        @if (total == 0) {
+            <div id="wholeScreenH1">
+                <h1 style="text-align: center;">You have no corresponding expenses to this date !</h1>
+            </div>
+        }
+
+        <div id="canvasDiv">
+            <canvas id="myChart"  ></canvas>
+        </div>
+
+        <div style="display: flex;justify-content: center;margin-bottom: 50px;">
+            <div id="canvasDiv2" style="width:45vw">
+                <canvas id="myChart2"  ></canvas>
+            </div>
+
+            <div id="canvasDiv3" style="width:45vw">
+                <canvas id="myChart3"  ></canvas>
+            </div>
+        </div>
+
+
+</div>
+<footer>
+    <div id="addbtnContainer">
+        <img alt="add btn" src="assets/img/add.png" id="addBtn" title="Add new category" (click)="addClick()">
+    </div>
+</footer>

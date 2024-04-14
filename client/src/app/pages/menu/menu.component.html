@@ -1,0 +1,25 @@
+<header>
+  <div class='bars-container' title="Open menu" (click)="handleMenuClick" #barsContainer>
+      <div class='bar'></div>
+      <div class='bar'></div>
+      <div class='bar'></div>
+  </div>
+  <h1 (click)="homeClick()">SPENDLESS</h1>
+  <div id="logo"></div>
+</header>
+<div class="menu" #menu>
+    <div class="close" title="Close menu" (click)="handleCrossClick"></div>
+    <div class='circle'></div>
+    <nav>
+        <ul>
+          <menu-item text="Home" to="/"></menu-item>
+          <menu-item text="My wallet" to="/wallet"></menu-item>
+          <menu-item text="Spend" to="/spend"></menu-item>
+          <menu-item text="New category" to="/newcat"></menu-item>
+        </ul>
+    </nav>
+    <button
+      [class]="connected ? 'disconnect' : 'connect'"
+      (click)="connected ? handleDisconnectClick($event) : handleConnectClick($event)"
+    ></button>
+</div>

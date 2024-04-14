@@ -1,0 +1,41 @@
+#newCategoryContainer{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+button {
+    width: 170px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-family: 'Work Sans';
+    font-weight: 300;
+    color: #fff;
+    background: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+
+    &:hover {
+      background: #000;
+    }
+  }
+
+#formDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+    background: rgb(247, 243, 243);
+    padding: 20px;
+    border-radius: 10px;
+}

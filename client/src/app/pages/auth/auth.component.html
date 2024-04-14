@@ -1,0 +1,20 @@
+<div id="main" class="center">
+  <p-toast></p-toast>
+  <div class="container">
+    <form class="item" method="get" (submit)="login($event)">
+      <h1>Login</h1>
+      <input type="text" required name="login-username" [(ngModel)]="loginUsername" placeholder="username" />
+      <input type="password" name="login-password" [(ngModel)]="loginPassword" placeholder="password" required/>
+      <button type="submit">ok</button>
+    </form>
+
+    <form class="item" method="get" (submit)="register($event)">
+      <h1>Register</h1>
+      <input type="text" required name="register-username" [(ngModel)]="registerUsername" placeholder="username" />
+      <input type="password" required name="register-password" [(ngModel)]="registerPassword" placeholder="password" />
+      <button type="submit">ok</button>
+    </form>
+
+  </div>
+
+</div>

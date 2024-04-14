@@ -1,0 +1,38 @@
+@import '../menu.component.scss';
+
+li {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a {
+      width: 80%;
+      height: 100%;
+      list-style: none;
+      text-decoration: none;
+      position: relative;
+
+      display: flex;
+      align-items: center;
+
+      &:hover, &.active {
+          background-color: #dddddd;
+          color: $main-white-color;
+          border-radius: 10px;
+      }
+      p {
+          color: black;
+          font-size: 1.2rem;
+          font-weight: 700;
+          margin-left: 15px;
+      }
+
+      svg {
+          color: rgb(153, 153, 153);
+          width: 10px;
+          position: absolute;
+          right: 30px;
+      }
+  }
+}

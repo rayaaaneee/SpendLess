@@ -1,0 +1,17 @@
+<form id="main" class="center">
+  <p-toast></p-toast>
+  <div>
+    <img src="assets/img/balance.png" width="85px" alt="wallet" class="wallet">
+    <h1 class="main-title">Current balance : </h1>
+    <div class="balance-container" [class]="getColor()">
+        <h1 class="balance euros">{{ balance.toFixed(2).toString().split(".")[0] }}</h1>
+        <h1 class="balance cents">. {{ balance.toFixed(2).toString().split(".")[1] }}</h1>
+        <h1 class="balance currency">€</h1>
+    </div>
+  </div>
+  <div>
+    <p-inputNumber name="to-add" [(ngModel)]="toAdd" [showButtons]="true" mode="currency" currency="EUR"></p-inputNumber>
+    <button type="submit" (click)="addToBalance($event)" class="add">Add to my wallet</button>
+  </div>
+</form>
+

@@ -1,0 +1,35 @@
+{"level":"error","message":"Title missing !","service":"user-service"}
+{"level":"error","message":"Title missing !","service":"user-service"}
+{"level":"error","message":"Title too long !","service":"user-service"}
+{"level":"error","message":"Title too long !","service":"user-service"}
+{"level":"error","message":"Password missing !","service":"user-service"}
+{"level":"error","message":"Password error !","service":"user-service"}
+{"level":"error","message":"Password too short !","service":"user-service"}
+{"level":"error","message":"Password error !","service":"user-service"}
+{"level":"error","message":"Password too long !","service":"user-service"}
+{"level":"error","message":"Password error !","service":"user-service"}
+{"level":"error","message":"Username missing !","service":"user-service"}
+{"level":"error","message":"Username error !","service":"user-service"}
+{"level":"error","message":"Password too short !","service":"user-service"}
+{"level":"error","message":"Password error !","service":"user-service"}
+{"level":"error","message":"Password too short !","service":"user-service"}
+{"level":"error","message":"Password error !","service":"user-service"}
+{"level":"error","message":"Password too short !","service":"user-service"}
+{"level":"error","message":"Password error !","service":"user-service"}
+{"level":"error","message":"Password too short !","service":"user-service"}
+{"level":"error","message":"Password error !","service":"user-service"}
+{"level":"error","message":"Username already taken !","service":"user-service"}
+{"level":"error","message":"Username already taken !","service":"user-service"}
+{"level":"error","message":"Username already taken !","service":"user-service"}
+{"level":"error","message":"Username or password incorrect !","service":"user-service"}
+{"level":"error","message":"Token is not valid !","service":"user-service"}
+{"level":"error","message":"Token is not valid !","service":"user-service"}
+{"level":"error","message":"Token is not valid !","service":"user-service"}
+{"level":"error","message":"Token is not valid !","service":"user-service"}
+{"level":"error","message":"Token is not valid !","service":"user-service"}
+{"level":"error","message":"Token is not valid !","service":"user-service"}
+{"level":"error","message":"Token is not valid !","service":"user-service"}
+{"level":"error","message":"Token is not valid !","service":"user-service"}
+{"level":"error","message":"Token is not valid !","service":"user-service"}
+{"level":"error","message":"Token is not valid !","service":"user-service"}
+{"level":"error","message":"Token is not valid !","service":"user-service"}

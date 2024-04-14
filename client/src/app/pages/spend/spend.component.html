@@ -1,0 +1,76 @@
+<p-toast></p-toast>
+
+<div id="spendlessTitle">
+  <h1>SPENDLESS</h1>
+</div>
+
+<div class="spendContainer">
+
+  <form class="spendForm" (submit)="onSpend($event)" [formGroup]="spendForm">
+    <h1>New expense</h1>
+
+      <h3>Amount</h3>
+      <p-inputNumber name="spend-amount" [formControlName]="'spendAmount'" [showButtons]="true" mode="currency" currency="EUR"></p-inputNumber>
+
+    <h3>Category</h3>
+    <!--Fais des lignes de trois éléments-->
+    <div *ngFor="let size of sizeTab ">
+      <div id="categoriesRow">
+        @if(categoryOptions && categoryOptions[size]){
+          <p-card header="{{categoryOptions && categoryOptions[size]?.title}}" [style]="{ width: '300px' }" (click)="onCategoryChange($event)">
+            <ng-template pTemplate="header">
+              @if (categoryOptions[size].user_id! !== 0) {
+                <div title="Delete this category" class="delete-button" (click)="delete(categoryOptions[size].id!)"></div>
+              }
+              <img alt="Card" src="https://loremflickr.com/420/140/{{categoryOptions?.[size]?.title}}" />
+            </ng-template>
+          </p-card>
+        }
+
+        @if(categoryOptions && categoryOptions[size+1]){
+          <p-card header="{{categoryOptions && categoryOptions[size+1]?.title}}"[style]="{ width: '300px' }" (click)="onCategoryChange($event)">
+            <ng-template pTemplate="header">
+                @if (categoryOptions[size].user_id! !== 0) {
+                  <div title="Delete this category" class="delete-button" (click)="delete(categoryOptions[size].id!)"></div>
+                }
+                <img alt="Card" src="https://loremflickr.com/420/140/{{categoryOptions?.[size+1]?.title}}" />
+            </ng-template>
+          </p-card>
+        }
+
+        @if(categoryOptions && categoryOptions[size+2]){
+          <p-card header="{{categoryOptions && categoryOptions[size+2]?.title}}" [style]="{ width: '300px' }" (click)="onCategoryChange($event)">
+            <ng-template pTemplate="header">
+                @if (categoryOptions[size].user_id! !== 0) {
+                  <div title="Delete this category" class="delete-button" (click)="delete(categoryOptions[size].id!)"></div>
+                }
+                <img alt="Card" src="https://loremflickr.com/420/140/{{categoryOptions?.[size+2]?.title}}" />
+            </ng-template>
+          </p-card>
+        }
+
+        @if(categoryOptions && categoryOptions[size+3]){
+          <p-card header="{{categoryOptions && categoryOptions[size+3]?.title}}" [style]="{ width: '300px' }" (click)="onCategoryChange($event)">
+            <ng-template pTemplate="header">
+                @if (categoryOptions[size].user_id! !== 0) {
+                  <div title="Delete this category" class="delete-button" (click)="delete(categoryOptions[size].id!)"></div>
+                }
+                <img alt="Card" src="https://loremflickr.com/420/140/{{categoryOptions?.[size+3]?.title}}" />
+            </ng-template>
+          </p-card>
+        }
+
+        @if(categoryOptions && !categoryOptions[size+3]){
+          <button class="add-cat" style="margin: 20px;" (click)="onAddCategory()" title="Add new category">+</button>
+        }
+
+
+      </div>
+    </div>
+    <div>
+      <button type="submit">Spend</button>
+    </div>
+
+  </form>
+
+</div>

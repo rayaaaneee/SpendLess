@@ -1,14 +1,14 @@
 import { Injectable } from '@angular/core';
 import { Transaction } from '../models/transaction.model';
-import { of } from 'rxjs';
+import { environment } from '../../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class TransactionService {
 
-  apiURL = 'http://localhost:3000/operations'
-  accountUrl = 'http://localhost:3000/accounts'
+  apiURL = `${ environment.apiUrl }/operations`;
+  accountUrl = `${ environment.apiUrl }/accounts`;
 
   constructor() { }
 

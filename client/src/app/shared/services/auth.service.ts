@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { CookieService } from 'ngx-cookie-service';
 import { AccountService } from './account.service';
 import { Account } from '../models/account.model';
+import { environment } from '../../../environments/environment';
 
 @Injectable(
   { providedIn: 'root' }
@@ -10,7 +11,7 @@ export class AuthService {
 
   public cookieName: string = 'token';
 
-  public readonly url = 'http://localhost:3000/accounts';
+  public readonly url = `${ environment.apiUrl }/accounts`;
 
   constructor(
     private cookieService: CookieService,

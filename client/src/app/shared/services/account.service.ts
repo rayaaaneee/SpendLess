@@ -1,13 +1,14 @@
 import { Injectable } from '@angular/core';
 import { Account } from '../models/account.model';
 import { CookieService } from 'ngx-cookie-service';
+import { environment } from '../../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class AccountService {
 
-  apiURL = 'http://localhost:3000/accounts';
+  apiURL = `${ environment.apiUrl }/accounts`;
 
   public cookieName: string = 'token';
 

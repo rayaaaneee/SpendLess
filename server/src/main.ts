@@ -35,7 +35,9 @@ const getDatabase = () => {
 
 export const db = getDatabase();
 
-app.use(express.json(), cors());
+app.use(express.json(), cors({
+  origin: process.env.ORIGIN
+}));
 
 import('./router');
 

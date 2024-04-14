@@ -1,6 +1,7 @@
 node_modules
 .idea
 .DS_Store
+.env
 coverage
 db/database.db
 db/test_database.db

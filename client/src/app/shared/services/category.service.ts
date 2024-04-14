@@ -1,14 +1,16 @@
 import { Injectable } from '@angular/core';
 import { Category } from '../models/category.model';
 import { AccountService } from './account.service';
+import { environment } from '../../../environments/environment';
+
 
 @Injectable({
   providedIn: 'root'
 })
 export class CategoryService {
 
-  apiURL = 'http://localhost:3000/categories'
-  accountUrl = 'http://localhost:3000/accounts'
+  apiURL = `${ environment.apiUrl }/categories`;
+  accountUrl = `${ environment.apiUrl }/accounts`;
 
   constructor(
     private accountService: AccountService
